@@ -3,7 +3,17 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Emma Sargsyan — Data Science student, founder, automation consultant, and product builder in Calgary." />
+  <meta name="description" content="Emma Sargsyan — Data Science student and founder in Calgary. I build booking software (app.zoroliq.com), automation systems, and analytics for service businesses. Open to internships." />
+  <meta name="theme-color" content="#102b29" />
+  <link rel="canonical" href="https://esargsyan.com/" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23102b29'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-family='Arial' font-weight='800' font-size='30' fill='%23b1d8c8'%3EES%3C/text%3E%3C/svg%3E" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Emma Sargsyan | Data, Automation & Product" />
+  <meta property="og:description" content="Data Science student and founder building booking software, automation systems, and analytics. Open to internships." />
+  <meta property="og:url" content="https://esargsyan.com/" />
+  <meta property="og:image" content="https://esargsyan.com/assets/images/emma-sargsyan.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Emma Sargsyan","url":"https://esargsyan.com","jobTitle":"Data Science Student & Founder","address":{"@type":"PostalAddress","addressLocality":"Calgary","addressRegion":"AB","addressCountry":"CA"},"alumniOf":"Mount Royal University","sameAs":["https://github.com/emmas20","https://www.linkedin.com/in/emma-sargsyan-aa250b346"]}</script>
   <title>Emma Sargsyan | Data, Automation & Product</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,12 +21,14 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <a class="skip-link" href="#top">Skip to content</a>
   <div class="noise"></div>
   <header class="site-header">
     <a class="brand" href="#top" aria-label="Home">ES<span>.</span></a>
     <nav aria-label="Main navigation">
       <a href="#about">About</a>
-      <a href="#work">Work</a>
+      <a href="#product">Product</a>
+      <a href="#work">Client Work</a>
       <a href="#projects">Data Projects</a>
       <a href="#experience">Experience</a>
       <a href="#contact">Contact</a>
@@ -27,11 +39,11 @@
   <main id="top">
     <section class="hero section-shell">
       <div class="hero-copy reveal">
-        <div class="eyebrow"><span class="status-dot"></span> Calgary-based · Open to Fall 2026 internships</div>
+        <div class="eyebrow"><span class="status-dot"></span> Calgary-based · Open to internships</div>
         <h1>I turn data and workflows into <em>clearer decisions.</em></h1>
-        <p class="hero-lede">I’m Emma Sargsyan, a Data Science student and founder building analytics, automation systems, websites, and an early-stage SaaS product for service businesses.</p>
+        <p class="hero-lede">I’m Emma Sargsyan, a Data Science student and founder. I build analytics, automation systems, and Zoroliq’s booking software — and I’m looking for internships where data and product thinking meet.</p>
         <div class="hero-actions">
-          <a class="button primary" href="#work">Explore my work</a>
+          <a class="button primary" href="#product">See what I’ve built</a>
           <a class="button secondary" href="assets/docs/Emma-Sargsyan-Resume.pdf" target="_blank" rel="noopener">View resume</a>
         </div>
         <div class="hero-links">
@@ -50,9 +62,9 @@
     </section>
 
     <section class="metrics section-shell reveal" aria-label="Highlights">
-      <div><strong>3+</strong><span>years leading clients & learners</span></div>
-      <div><strong>4</strong><span>languages spoken</span></div>
-      <div><strong>Real</strong><span>client systems shipped</span></div>
+      <div><strong>1</strong><span>live SaaS MVP at app.zoroliq.com</span></div>
+      <div><strong>4</strong><span>client sites &amp; systems shipped</span></div>
+      <div><strong>3+</strong><span>years leading clients &amp; learners</span></div>
       <div><strong>2028</strong><span>expected B.Sc. graduation</span></div>
     </section>
 
@@ -63,15 +75,67 @@
         <div class="about-copy reveal delay-1">
           <p>I began programming through SAIT’s dual-credit program, then continued into Data Science at Mount Royal University with a Finance concentration. Alongside school, I founded Zoroliq to help service businesses replace fragmented manual processes with connected digital systems.</p>
           <p>My work sits at the intersection of analytics, product thinking, business operations, and client communication. I enjoy understanding how a process works, finding where it breaks down, and designing a practical solution that people can actually use.</p>
-          <div class="mini-tags"><span>Python</span><span>SQL</span><span>R</span><span>Tableau</span><span>Excel</span><span>n8n</span><span>Apps Script</span><span>HTML/CSS</span></div>
+          <p class="about-note">Languages: English, French, Armenian, Russian.</p>
+          <div class="mini-tags"><span>Python</span><span>SQL</span><span>R</span><span>Tableau</span><span>Excel</span><span>TypeScript</span><span>Next.js</span><span>PostgreSQL</span><span>Supabase</span><span>n8n</span><span>Apps Script</span><span>HTML/CSS</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="product" class="product section-pad">
+      <div class="section-shell">
+        <div class="section-kicker reveal">02 / Product</div>
+        <div class="product-head reveal">
+          <div>
+            <span class="badge">Live MVP · Founder &amp; sole developer</span>
+            <h2>app.zoroliq.com — booking software for appointment-based businesses</h2>
+          </div>
+          <p>Zoroliq’s own SaaS platform. I designed the data model, built the full-stack app, and shipped a working MVP that lets a service business manage its schedule without double-bookings. The next layer is automation and AI-assisted workflows.</p>
+        </div>
+
+        <div class="product-grid">
+          <div class="product-features">
+            <article class="pf reveal"><span class="pf-num">01</span><h3>Authentication &amp; onboarding</h3><p>Secure sign-up and login, plus a guided onboarding flow that sets a business up with its services and hours.</p></article>
+            <article class="pf reveal delay-1"><span class="pf-num">02</span><h3>Booking &amp; availability</h3><p>Businesses define services, working hours, and availability; customers book open time slots.</p></article>
+            <article class="pf reveal delay-2"><span class="pf-num">03</span><h3>Conflict-prevention scheduling</h3><p>Slot generation runs in PostgreSQL, with database-level constraints so overlapping appointments can’t be saved.</p></article>
+            <article class="pf reveal delay-3"><span class="pf-num">04</span><h3>Multi-tenant data security</h3><p>Row-level security keeps each business’s data isolated at the database layer, not just in app code.</p></article>
+          </div>
+
+          <div class="code-panel reveal delay-1" role="img" aria-label="Simplified illustration of the scheduling constraint design">
+            <div class="code-top"><i></i><i></i><i></i><b>scheduling.sql</b><em>simplified illustration</em></div>
+<pre><code><span class="c">-- Overlapping bookings are rejected by the database itself</span>
+<span class="k">ALTER TABLE</span> bookings
+  <span class="k">ADD CONSTRAINT</span> no_double_booking
+  <span class="k">EXCLUDE USING</span> gist (
+    business_id <span class="k">WITH</span> =,
+    tstzrange(starts_at, ends_at) <span class="k">WITH</span> &amp;&amp;
+  );
+
+<span class="c">-- Tenant isolation via row-level security</span>
+<span class="k">ALTER TABLE</span> bookings <span class="k">ENABLE ROW LEVEL SECURITY</span>;</code></pre>
+          </div>
+        </div>
+
+        <div class="stack-row reveal">
+          <span>Built with</span>
+          <div class="mini-tags dark"><span>Next.js 14</span><span>TypeScript</span><span>Tailwind CSS</span><span>Supabase</span><span>PostgreSQL</span><span>Row-level security</span><span>Vercel</span></div>
+        </div>
+
+        <div class="roadmap reveal">
+          <h3>Roadmap</h3>
+          <ul>
+            <li><b>Shipped</b> Auth, onboarding, booking &amp; availability, conflict prevention</li>
+            <li><b>Next</b> Waitlist for fully booked slots</li>
+            <li><b>Planned</b> Automation layer and AI-assisted workflows</li>
+          </ul>
+          <a class="button primary" href="https://app.zoroliq.com" target="_blank" rel="noopener">Open app.zoroliq.com ↗</a>
         </div>
       </div>
     </section>
 
     <section id="work" class="section-shell section-pad">
-      <div class="section-kicker reveal">02 / Building real solutions</div>
+      <div class="section-kicker reveal">03 / Client work</div>
       <div class="section-heading reveal">
-        <h2>Selected product and client work</h2>
+        <h2>Client websites and systems</h2>
         <p>Projects that combine business analysis, development, automation, and user experience.</p>
       </div>
 
@@ -81,7 +145,7 @@
           <h3>Zoroliq</h3>
           <p>Zoroliq is the company I founded to help service businesses replace fragmented manual processes with one connected system — custom websites, booking, workflow automation, and dashboards that all work together.</p>
           <p class="muted">I lead every stage of delivery: discovery and requirements gathering, solution design, development, deployment, and ongoing support — combining web development, automation tooling (n8n, Zapier), and Tableau dashboards into a single client engagement.</p>
-          <p class="muted">Alongside client work, I'm building <strong>app.zoroliq.com</strong>, Zoroliq's own SaaS platform (Next.js, TypeScript, Supabase/PostgreSQL). The live MVP includes full authentication, onboarding, and a booking/availability system with conflict-prevention scheduling — the core layer of a platform I'm architecting toward a fuller automation and AI layer.</p>
+          <p class="muted">Alongside client work, I build Zoroliq's own SaaS platform — <a href="#product">see the product section above</a>.</p>
           <div class="feature-grid">
             <span>Custom websites</span><span>Booking systems</span><span>Workflow automation</span><span>Client tracking</span><span>Tableau dashboards</span><span>Lead &amp; booking reporting</span>
           </div>
@@ -155,7 +219,7 @@
 
     <section id="projects" class="data-section section-pad">
       <div class="section-shell">
-        <div class="section-kicker reveal">03 / Data projects</div>
+        <div class="section-kicker reveal">04 / Data projects</div>
         <div class="section-heading reveal"><h2>Analytics grounded in clear questions</h2><p>Academic work that demonstrates data preparation, modeling, simulation, and interpretation.</p></div>
         <div class="data-grid">
           <article class="data-card reveal">
@@ -178,20 +242,20 @@
     </section>
 
     <section id="experience" class="section-shell section-pad">
-      <div class="section-kicker reveal">04 / Experience</div>
+      <div class="section-kicker reveal">05 / Experience</div>
       <div class="experience-grid">
         <div class="section-heading sticky reveal"><h2>Technical curiosity, business ownership, and people leadership.</h2><p>Each role has strengthened how I communicate, organize information, manage responsibility, and solve problems.</p></div>
         <div class="timeline">
-          <article class="timeline-item reveal"><span>May 2025 — Present</span><h3>Founder & Data Solutions Consultant</h3><h4>Zoroliq</h4><p>Lead discovery, requirements gathering, solution design, development, deployment, and ongoing optimization for small-business digital systems.</p></article>
+          <article class="timeline-item reveal"><span>Sep — Dec 2026</span><h3>Data Science Co-op</h3><h4>Answir Inc.</h4><p>Work-term placement through Mount Royal University’s Data Science co-op program.</p></article>
+          <article class="timeline-item reveal"><span>May 2025 — Present</span><h3>Founder & Data Solutions Consultant</h3><h4>Zoroliq</h4><p>Lead discovery, requirements gathering, solution design, development, deployment, and ongoing optimization for small-business digital systems. Building app.zoroliq.com, a booking SaaS with a live MVP.</p></article>
           <article class="timeline-item reveal"><span>Aug 2023 — Present</span><h3>Private Swim Instructor</h3><h4>Propel Swim Company</h4><p>Operate an independent client service, managing scheduling, communication, individualized planning, and long-term client relationships.</p></article>
           <article class="timeline-item reveal"><span>Sep 2023 — Present</span><h3>Leadership Instructor · Lifeguard · Swim Instructor</h3><h4>YMCA Calgary</h4><p>Teach, assess, document progress, communicate with families and staff, and resolve operational or safety issues under pressure.</p></article>
-          <article class="timeline-item reveal"><span>Jan 2024 — Dec 2025</span><h3>Jewelry Sales Associate</h3><h4>W. Royce Jewellers</h4><p>Delivered consultative service in a luxury retail environment while supporting client relationships, sales, inventory, and merchandising.</p></article>
         </div>
       </div>
     </section>
 
     <section class="education section-shell section-pad">
-      <div class="section-kicker reveal">05 / Education</div>
+      <div class="section-kicker reveal">06 / Education</div>
       <div class="edu-grid">
         <article class="edu-main reveal"><span>September 2024 — Present · Expected 2028</span><h2>Bachelor of Science, Data Science</h2><h3>Mount Royal University · Finance Concentration</h3><p>Relevant study includes programming for data scientists, statistical data analysis, databases and SQL, data acquisition, data processing, linear algebra, mathematical statistics, probability, introductory finance, and accounting.</p></article>
         <div class="edu-side">
@@ -202,7 +266,7 @@
     </section>
 
     <section id="contact" class="contact section-shell section-pad reveal">
-      <div><span class="section-kicker">06 / Contact</span><h2>Let’s build something useful.</h2><p>I’m interested in data analyst, data science, business intelligence, analytics, and product-focused internship opportunities.</p></div>
+      <div><span class="section-kicker">07 / Contact</span><h2>Let’s build something useful.</h2><p>I’m open to internships in data analytics, data science, business intelligence, and product — especially roles that combine analysis with building. Email is the fastest way to reach me.</p></div>
       <div class="contact-actions">
         <a class="button primary" href="mailto:emma53294@gmail.com">emma53294@gmail.com</a>
         <a class="button secondary" href="https://www.linkedin.com/in/emma-sargsyan-aa250b346" target="_blank" rel="noopener">Connect on LinkedIn</a>
