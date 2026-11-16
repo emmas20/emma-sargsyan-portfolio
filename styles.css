@@ -33,3 +33,14 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-off
 .product .button.primary{background:var(--accent2);color:var(--dark)}
 @media(max-width:900px){.product-head,.product-grid{grid-template-columns:1fr;gap:28px}.product-features{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.reveal{opacity:1!important;transform:none!important}}
+.more-work{display:flex;align-items:center;justify-content:space-between;gap:30px;margin-top:34px;padding:34px 38px;background:var(--paper);border:1px solid var(--line);border-radius:28px;color:var(--ink);text-decoration:none;transition:transform .2s,box-shadow .2s}
+.more-work:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+.more-work h3{font:800 clamp(24px,3vw,34px)/1.15 Manrope,sans-serif;margin:12px 0 8px;letter-spacing:-.03em}
+.more-work p{margin:0;color:var(--muted);max-width:560px}
+.more-arrow{white-space:nowrap;font-weight:700;color:var(--accent)}
+.back-link{display:inline-block;margin-bottom:26px;color:var(--accent);font-weight:600;text-decoration:none}
+.site-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:20px}
+.more-soon{margin-top:44px;color:var(--muted)}.more-soon a{color:var(--accent);font-weight:600}
+@media(max-width:700px){.more-work{flex-direction:column;align-items:flex-start;padding:26px}}
+.zoroliq-card p a{color:var(--accent2);text-decoration:underline}
+.more-work .badge{background:rgba(31,95,87,.1);color:var(--accent)}
